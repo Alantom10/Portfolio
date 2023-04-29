@@ -1,0 +1,150 @@
+@import url('https://fonts.cdnfonts.com/css/chathura');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+#tababout{
+    color: white !important;
+    font-family: 'Chathura', sans-serif !important;
+    font-size: 4vh !important;
+}
+
+.resume-tab{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border-color: transparent;
+    width: 100%;
+}
+
+#avestec_card, #greenlight_card, #seaspan_card, #downres_card{
+    position: absolute;
+    top: 20vh;
+    left: 7.5vw;
+    width: 25vw;
+    height: 60vh;
+    font-family: 'Chathura', sans-serif;
+    background-color: transparent;
+}
+
+#avestec_title, #greenlight_title, #seaspan_title, #downres_title{
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+#avestec_text, #greenlight_text, #seaspan_text, #downres_text{
+    background: -webkit-linear-gradient(#435774, #000000);
+    background: linear-gradient(#435774, #000000);
+    width: 100%;
+    height: 30vh;
+    color: white;
+    font-family: 'Chathura', sans-serif;
+    font-size: 4vh;
+    line-height: 3vh;
+    left: 3%;
+}
+
+#seaspan_card{
+    left: 67.5vw;
+}
+
+#greenlight_card{
+    top: 20vh;
+    left: 37.5vw;
+}
+.resume-company{
+    font-size: 4vh;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    padding-top: 5vh;
+}
+
+.resume-role{
+    font-size: 3vh;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.resume-role, .resume-company, .resume-date, .resume-desc{
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+}
+
+#avestec_title{
+    background-image: url('../image/avestec_logo.JPG') ;
+}
+#greenlight_title{
+    background-image: url('../image/greenlight_logo.png');
+}
+#seaspan_title{
+    background-image: url('../image/seaspan_logo.png');
+}
+
+#SFU-card{
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    width: 30vw;
+    height: 50vh;
+    font-family: 'Chathura', sans-serif;
+    background-color: transparent;
+}
+.resume-card-texts{
+    position: relative;
+    top: 47%;
+    transform: translateY(-50%);
+}
+#sfu-title{
+    background-image: url('../image/sfu.jpg');
+    background-size: cover;
+    color: white;
+    height: 30vh;
+    font-family: 'Lobster', cursive;
+}
+#sfu-text{
+    background: #ed213a;
+    background: -webkit-linear-gradient(#dd1818, #000000);
+    background: linear-gradient(#dd1818, #000000);
+    width: 100%;
+    height: 20vh;
+    color: white;
+    font-family: 'Chathura', sans-serif;
+    font-size: 4vh;
+    line-height: 3vh;
+}
+.school_cards{
+    font-size: 6vh;
+}
+.hobbies{
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 4vh;
+    position: absolute;
+    top: 20vh;
+    width: 85vw;
+    left: 7.5vw;
+}
+  
+#wordcloud{
+    position: relative;
+    top: 5vh;
+    background-color: rgba(0,0,0,0.8);
+}
+#downres_card{
+    top: 20vh;
+    left: 37.5vw;
+}
+
+#downres_title{
+    background-image: url("../image/Resume.JPG");
+    height:40vh;
+}
+
+#downres_subtitle{
+    font-size: 4vh;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.downres_button{
+    width: 50%;
+    font-size: 3vh;
+    background-color: transparent;
+    color: white;
+
+}

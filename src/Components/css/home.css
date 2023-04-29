@@ -1,0 +1,117 @@
+body {
+    background: url('../image/homeBG.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#image_mov{
+    width:12%;
+    height: auto;
+    float: right;
+}
+
+.intro_text{
+    color:aliceblue;
+}
+
+#intro_text_box{
+    color: transparent;
+    font-family:cursive;
+    float:left;
+}
+
+#home_logo{
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#info_container{
+    font: white;
+    background-color: rgb(0,0,0,0.4);
+    margin-top: -25vh;
+    position:absolute;
+    right: 100%;
+    height:50vh;
+    width:134.5vw;
+}
+
+.traits {
+    color: white;
+    font-family: 'Amatic SC';
+    margin-left: 1vw;
+    font-size: 4vh;
+    opacity: 0;
+    animation: intro_subtext_move;
+    animation-fill-mode: forwards;
+    animation-delay:2000ms;
+    animation-duration: 1500ms;
+}
+
+.header_traits{
+    margin-left: 1vw;
+    color:white;
+    font-family: 'Lobster';
+    font-size: 6vh;
+    opacity: 0;
+    animation: intro_subtext_move;
+    animation-fill-mode: forwards;
+    animation-delay:2000ms;
+    animation-duration: 1500ms;
+}
+
+#trait_container{
+    margin-top: 30vh;
+    background-color: rgb(0,0,0,0.5);
+    width:0vh;
+    animation: intro_text_move;
+    animation-fill-mode: forwards;
+    animation-delay:2000ms;
+    animation-duration: 1500ms;
+    float: right;
+}
+
+
+#welcome_gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20vh;
+    margin-left: -40vh;
+    animation:gif_move;
+    animation-delay:2000ms;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    width: 40vw;
+    height: auto;
+}
+@keyframes intro_text_move {
+    0% {
+        width: 0vw;
+    }
+    100%{
+        width: 65vw;
+    }
+}
+
+@keyframes gif_move{
+    /* 0% {
+        transform: translateX(0vh);
+    } */
+    100% {
+        transform: translateX(-30vw);
+    }
+}
+
+@keyframes intro_subtext_move{
+    100% {
+        opacity: 1;
+    }
+}
+
