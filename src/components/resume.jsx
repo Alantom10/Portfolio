@@ -112,13 +112,12 @@ export default class Resume extends Component{
                                 <CardTitle id="tsworks_title"> </CardTitle>
                                 <CardText id="tsworks_text">
                                     <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> tsworks </b><br/>
+                                        <b className='resume-company'> tsworks </b><br/>
                                         <b className='resume-role'> Software Engineer Intern </b><br/>
                                         <b className='resume-date'> March 2020 - April 2021 </b><br/><br/>
                                         <p className='resume-desc'> Developed web pages using Angular 10 with Material Design,
                                             integrated multi-browser compatible and mobile responsive UI components with Restful APIs,
                                             and created website prototypes using Adobe XD and Illustrator.</p>
-
                                     </div>
                                 </CardText>
                             </Card>
@@ -136,9 +135,9 @@ export default class Resume extends Component{
                                     <div className="resume-card-texts">
                                         <p className='school_cards'> 
                                         <b className='resume-company'> Simon Fraser University </b> </p>
-                                        <p className='resume-desc'> Faculty of Applied Sciences <br/>
+                                        Faculty of Applied Sciences <br/>
                                         Computer Science <br/>
-                                        September 2018 - December 2022 </p>
+                                        September 2018 - December 2022
                                     </div>
                                 </CardText>
                             </Card>

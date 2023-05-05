@@ -61,10 +61,16 @@
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
-.resume-role, .resume-company, .resume-date, .resume-desc{
-    margin-left: 1vw;
-    margin-right: 0.5vw;
+.resume-desc{
+    font-size: 4vh;
+    width: 90%;
+    line-height: 3vh;
 }
+
+/*.resume-role, .resume-company, .resume-date, .resume-desc{*/
+/*    margin-left: 1vw;*/
+/*    margin-right: 0.5vw;*/
+/*}*/
 
 #tsworks2_title{
     background-image: url('../image/tsworks.png') ;
@@ -133,7 +139,8 @@
 
 #downres_title{
     background-image: url("../image/Resume.png");
-    height:40vh;
+    height:70vh;
+    background-position: left;
 }
 
 #downres_subtitle{
