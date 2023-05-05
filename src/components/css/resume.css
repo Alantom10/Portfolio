@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-#avestec_card, #greenlight_card, #seaspan_card, #downres_card{
+#tsworks2_card, #netapp_card, #tsworks_card, #downres_card{
     position: absolute;
     top: 20vh;
     left: 7.5vw;
@@ -24,13 +24,13 @@
     background-color: transparent;
 }
 
-#avestec_title, #greenlight_title, #seaspan_title, #downres_title{
+#tsworks2_title, #netapp_title, #tsworks_title, #downres_title{
     background-size: cover;
     background-position: center;
     height: 30vh;
 }
 
-#avestec_text, #greenlight_text, #seaspan_text, #downres_text{
+#tsworks2_text, #netapp_text, #tsworks_text, #downres_text{
     background: -webkit-linear-gradient(#435774, #000000);
     background: linear-gradient(#435774, #000000);
     width: 100%;
@@ -42,11 +42,11 @@
     left: 3%;
 }
 
-#seaspan_card{
+#tsworks_card{
     left: 67.5vw;
 }
 
-#greenlight_card{
+#netapp_card{
     top: 20vh;
     left: 37.5vw;
 }
@@ -66,14 +66,14 @@
     margin-right: 0.5vw;
 }
 
-#avestec_title{
-    background-image: url('../image/avestec_logo.JPG') ;
+#tsworks2_title{
+    background-image: url('../image/tsworks.png') ;
 }
-#greenlight_title{
-    background-image: url('../image/greenlight_logo.png');
+#netapp_title{
+    background-image: url('../image/netapp.png');
 }
-#seaspan_title{
-    background-image: url('../image/seaspan_logo.png');
+#tsworks_title{
+    background-image: url('../image/tsworks.png');
 }
 
 #SFU-card{
@@ -132,7 +132,7 @@
 }
 
 #downres_title{
-    background-image: url("../image/Resume.JPG");
+    background-image: url("../image/Resume.png");
     height:40vh;
 }
 

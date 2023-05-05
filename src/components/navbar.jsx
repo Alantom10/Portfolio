@@ -16,7 +16,7 @@ export default class Navbar extends Component {
     render() { 
         return (
             <nav className='nav'>
-                <a href='/' className='nav__logo'>Anika</a>
+                <a href='/' className='nav__logo'>Alan</a>
                 <ul className={this.state.active}>
                     <li className="nav__link__box"><a href="/" className="nav__link">Home</a></li>
                     <li className="nav__link__box"><a href="/about_me" className="nav__link">About Me</a></li>

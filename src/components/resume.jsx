@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Card, CardTitle, CardText, CardActions} from 'react-mdl';
 import Tab from '@mui/material/Tab';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
+// import TabContext from "@mui/material/Table/TableContext";
+// import TabList from "@mui/material/Table/TableContext";
+// import TabPanel from "@mui/material/Table/TableContext";
 import Box from '@mui/material/Box';
 import ReactWordcloud from 'react-wordcloud';
 
@@ -25,28 +28,28 @@ export default class Resume extends Component{
     render(){
 
         let words = [
-            { text: 'Tennis', value: 10 },
-            { text: 'Volleyball', value: 10 },
-            { text: 'Makeup', value: 20 },
-            { text: 'Bullet Journalling', value: 20 },
+            { text: 'Cycling', value: 10 },
+            { text: 'Fashion', value: 10 },
+            { text: 'Reading', value: 20 },
+            { text: 'Hiking', value: 20 },
             { text: 'Guitar', value: 30 },
-            { text: 'Dancing', value: 30 },
+            { text: 'Sleeping', value: 30 },
             { text: 'LeetCode', value: 30 },
             { text: 'Fun Facts', value: 30 },
-            { text: 'Weight-lifting', value: 30 },
+            { text: 'Esports', value: 30 },
             { text: 'Learning', value: 40 },
             { text: 'Singing', value: 40 },
-            { text: 'Baking', value: 40 },
+            { text: 'Problem Solving', value: 40 },
             { text: 'Netflix', value: 40 },
-            { text: 'Badmintion', value: 50 },
+            { text: 'Stargazing', value: 50 },
             { text: 'Eating', value: 50 },
             { text: 'Cooking', value: 50 },
             { text: 'Praying', value: 50},
-            { text: 'Problem Solving', value: 60 },
+            { text: 'Soccer', value: 60 },
             { text: 'Friends', value: 70 },
-            { text: 'Stargazing', value: 80},
-            { text: 'Music', value: 100 },
-            { text: 'Travelling', value: 100 },
+            { text: 'Art', value: 80},
+            { text: 'Gaming', value: 100 },
+            { text: 'Powerlifting', value: 100 },
         ];
 
         let options = {              
@@ -78,43 +81,43 @@ export default class Resume extends Component{
                         }}
                     >
                         <div className='resume-cards'>
-                            <Card id='avestec_card' shadow={0}>
-                                <CardTitle id="avestec_title"> </CardTitle>
-                                <CardText id="avestec_text">
+                            <Card id='tsworks2_card' shadow={0}>
+                                <CardTitle id="tsworks2_title"> </CardTitle>
+                                <CardText id="tsworks2_text">
                                     <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> Avestec Technologies </b><br/>
+                                        <br/><b className='resume-company'> tsworks </b><br/>
                                         <b className='resume-role'> Software Engineer </b><br/>
-                                        <b className='resume-date'>February 2022 - Present </b><br/><br/>
-                                        <p className='resume-desc'>Created a program using Python Django and JavaScript to enhance drone reporting procedures which
-                                             organizes flight information for graphic analysis.
-                                              Also utilized Linux to update drone status and communicate with Tether Box.</p>
+                                        <b className='resume-date'> April 2022 - January 2023 </b><br/><br/>
+                                        <p className='resume-desc'> Developed and maintained REST APIs using FastAPI framework,
+                                            implemented Unit Tests to validate REST API endpoints and developed automated tests
+                                            to validate GraphQL APIs using Pytest.</p>
 
                                     </div>
                                 </CardText>
                             </Card>
-                            <Card id='greenlight_card' shadow={0}>
-                                <CardTitle id="greenlight_title"> </CardTitle>
-                                <CardText id="greenlight_text">
+                            <Card id='netapp_card' shadow={0}>
+                                <CardTitle id="netapp_title"> </CardTitle>
+                                <CardText id="netapp_text">
                                     <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> Greenlight Innovations </b><br/>
-                                        <b className='resume-role'> Full-Stack Developer Intern</b><br/>
-                                        <b className='resume-date'>May 2021 - December 2021 </b><br/><br/>
-                                        <p className='resume-desc'>Developed web applications using Python Django, JavaScript, PostgreSQL,
-                                             to allow managers and executives to view project performance reviews, and
-                                            automate repetitive tasks for accounting and manufacturing departments.</p>
+                                        <br/><b className='resume-company'> NetApp </b><br/>
+                                        <b className='resume-role'> Software Developer in Test Co-Op </b><br/>
+                                        <b className='resume-date'> May 2021 - December 2021 </b><br/><br/>
+                                        <p className='resume-desc'>  Tested NetApp StorageGRID's AWS S3 tiering functionality,
+                                            improving software quality by 20%. Performed Manual testing using Black box and White box techniques,
+                                            automated UI and API testing using Ruby and Cucumber frameworks.</p>
                                     </div>
                                 </CardText>
                             </Card>
-                            <Card id='seaspan_card' shadow={0}>
-                                <CardTitle id="seaspan_title"> </CardTitle>
-                                <CardText id="seaspan_text">
+                            <Card id='tsworks_card' shadow={0}>
+                                <CardTitle id="tsworks_title"> </CardTitle>
+                                <CardText id="tsworks_text">
                                     <div className='resume-card-texts'>
-                                        <br/><b className='resume-company'> Seaspan VSY </b><br/>
-                                        <b className='resume-role'> Electrical Engineer Intern </b><br/>
-                                        <b className='resume-date'>January 2020 - April 2020 </b><br/><br/>
-                                        <p className='resume-desc'>Designed and launched a user-friendly interface and ship locator program using
-                                             VBA macro that cross-references company data and organizes blocks and 
-                                             compartments to provide clients with a visual representation of various ship models.</p>
+                                        <br/><b className='resume-company'> tsworks </b><br/>
+                                        <b className='resume-role'> Software Engineer Intern </b><br/>
+                                        <b className='resume-date'> March 2020 - April 2021 </b><br/><br/>
+                                        <p className='resume-desc'> Developed web pages using Angular 10 with Material Design,
+                                            integrated multi-browser compatible and mobile responsive UI components with Restful APIs,
+                                            and created website prototypes using Adobe XD and Illustrator.</p>
 
                                     </div>
                                 </CardText>
@@ -133,8 +136,8 @@ export default class Resume extends Component{
                                     <div className="resume-card-texts">
                                         <p className='school_cards'> 
                                         <b className='resume-company'> Simon Fraser University </b> </p>
-                                        <p className='resume-desc'>Faculty of Applied Sciences <br/>
-                                        Computer Enginnering <br/>
+                                        <p className='resume-desc'> Faculty of Applied Sciences <br/>
+                                        Computer Science <br/>
                                         September 2018 - December 2022 </p>
                                     </div>
                                 </CardText>

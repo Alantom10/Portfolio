@@ -14,7 +14,7 @@ export default function Home_animation()  {
                     <img id="welcome_gif" src={welcome_gif}/>
                 </div>
                 <div id="trait_container">
-                    <p class="header_traits">Hi, I am Anika Sheikh!</p>
+                    <p class="header_traits">Hi, I am Alan Thomas!</p>
                     <p class="traits">Curious</p>
                     <p class="traits">Adventurous</p>
                     <p class="traits">Ambitious</p>

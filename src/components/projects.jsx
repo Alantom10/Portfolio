@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Card, CardTitle, CardText, CardActions} from 'react-mdl';
 import Tab from '@mui/material/Tab';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
+// import TabContext from "@mui/material/Table/TableContext";
+// import TabList from "@mui/material/Table/TableContext";
+// import TabPanel from "@mui/material/Table/TableContext";
 import Box from '@mui/material/Box';
 
 import './css/resume.css'
@@ -49,7 +52,7 @@ export default class Projects extends Component{
                                 <CardTitle id="portfolio_title"> </CardTitle>
                                 <CardText id="portfolio_text">
                                         <b className='proj_name'> Portfolio </b><br/>
-                                        <b className='proj_date'> September 2022 - Present </b><br/>
+                                        <b className='proj_date'> January 2023 - Present </b><br/>
                                         <p className='proj_desc'>What you are viewing right now! <br/><br/>
                                         <b>Skills:</b> React, HTML, CSS, JaveScript, GitHub, Material UI, React MDL </p>
                                 </CardText>
@@ -62,12 +65,12 @@ export default class Projects extends Component{
                                 <CardText id="maphero_text">
                                         <b className='proj_name'> MapHero </b><br/>
                                         <b className='proj_date'> February 2021 </b><br/>
-                                        <p className='proj_desc'> Launched an online platform to help homeless people and tourists navigate to necessary facilities, 
+                                        <p className='proj_desc'> Launched an online platform to help homeless people and tourists navigate to necessary facilities,
                                         winning "Best use of Google Clouds" and "Women in STEM" awards out of over 100 teams at StormHacks. <br/><br/>
                                         <b>Skills:</b> HTML, CSS, JaveScript, GitHub, API, GoogleCloud </p>
                                 </CardText>
                             </Card>
-                            
+
                         </div>
                     </TabPanel>
                     {/* ------------------------------------- App Dev -------------------------------------------------- */}
@@ -88,7 +91,7 @@ export default class Projects extends Component{
                                         <p className='proj_desc'>Developed app using Flutter and Firebase to set reminders for forgotten items using RFID hardware <br/><br/>
                                         <b>Skills:</b> Dart, C++, Flutter, Firebase, GitHub </p>
                                 </CardText>
-                            </Card>                            
+                            </Card>
                         </div>
                     </TabPanel>
                     {/* ------------------------------------- Game Dev -------------------------------------------------- */}
@@ -106,13 +109,13 @@ export default class Projects extends Component{
                                 <CardText id="game_text">
                                         <b className='proj_name'> Survive in the end </b><br/>
                                         <b className='proj_date'> January 2022 - April 2022 </b><br/>
-                                        <p className='proj_desc'>Survive in the End is an arcade-style pseudo 3D game based on a 
-                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines, 
-                                        avoid bad survivors and find a good survivor to open the exit door while managing their HP based on 
+                                        <p className='proj_desc'>Survive in the End is an arcade-style pseudo 3D game based on a
+                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines,
+                                        avoid bad survivors and find a good survivor to open the exit door while managing their HP based on
                                         interactions with survivors, with the number of required vaccines varying based on the chosen difficulty level. <br/><br/>
                                         <b>Skills:</b> Java, GitLab, Maven, Junit </p>
                                 </CardText>
-                            </Card>                            
+                            </Card>
                         </div>
                     </TabPanel>
                     {/* ------------------------------------- Embedded -------------------------------------------------- */}
@@ -135,18 +138,18 @@ export default class Projects extends Component{
                                           enabling secure and convenient access to the building.  <br/><br/>
                                         <b>Skills:</b> C, C++, SQLite, BeagleBone, Linux, Github </p>
                                 </CardText>
-                            </Card>     
+                            </Card>
                             <Card id='flipper_card' shadow={0}>
                                 <CardTitle id="flipper_title"> </CardTitle>
                                 <CardText id="flipper_text">
                                         <b className='proj_name'> Automated Page Flipper </b><br/>
                                         <b className='proj_date'> September 2018 - December 2018 </b><br/>
-                                        <p className='proj_desc'> Designed and implemented an automated page 
-                                        turning system utilizing precise motor control to smoothly and efficiently flip pages 
+                                        <p className='proj_desc'> Designed and implemented an automated page
+                                        turning system utilizing precise motor control to smoothly and efficiently flip pages
                                         for use by cooks and musicians. <br/><br/><br/>
                                         <b>Skills:</b> C, C++, Linux, Github </p>
                                 </CardText>
-                            </Card>                           
+                            </Card>
                         </div>
                     </TabPanel>
                 </TabContext>
