@@ -20,6 +20,15 @@
     background: linear-gradient(#1b91ae, #000000);
 }
 
+#portfolio_text, #maphero_text, #eMinder_text, #game_text, #intercom_text, #flipper_text{
+    width: 100%;
+    height: 30vh;
+    color: white;
+    font-family: 'Chathura', sans-serif;
+    font-size: 4vh;
+    line-height: 3vh;
+    left: 3%;
+}
 
 #portfolio_card, #maphero_card, #eMinder_card, #game_card, #intercom_card, #flipper_card{
     position: absolute;
@@ -31,14 +40,18 @@
     background-color: transparent;
 }
 
+#8puzzle_card {
+    left: 49.5vw;
+}
+
 #maphero_card, #flipper_card{
     left: 49.5vw;
 }
-#eMinder_card, #game_card{
+#portfolio_card, #eMinder_card, #game_card{
     left: 39vw;
 }
 
-#portfolio_title, #maphero_title, #eMinder_title, #game_title, #intercom_title, #flipper_title{
+#portfolio_title, #maphero_title, #restaurant_title, #game_title, #reversi_title, #flipper_title, #activity_title{
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -70,7 +83,7 @@ to    {opacity: 1;}
 }
 
 #portfolio_title{
-    background-image: url("../image/portfolio.JPG");
+    background-image: url("../image/Alan.svg");
     background-color: black;
 }
 
@@ -78,29 +91,35 @@ to    {opacity: 1;}
     background-image: url("../image/MapHero.JPG");
     background-color: black;
 }
-#eMinder_title{
-    background-image: url("../image/eMinder.JPG");
+#restaurant_title{
+    background-image: url("../image/restaurant.jpg");
     background-color: black;
     background-size: 90%;
 }
 #game_title{
-    background-image: url("../image/game.JPG");
+    background-image: url("../image/zombie.jpg");
     background-color: black;
 }
-#intercom_title{
-    background-image: url("../image/intercom.jpg");
+#activity_title{
+    background-image: url("../image/activity.png");
+    background-color: black;
+}
+#reversi_title{
+    background-image: url("../image/reversi.jpg");
     background-color: black;
 }
 #flipper_title{
-    background-image: url("../image/flipper.png");
+    background-image: url("../image/8puzzle.jpg");
     background-color: black;
 }
 .proj_name{
     font-size: 4vh;
+    fontFamily: "'ZCOOL QingKe HuangYou', cursive"
 }
 
 .proj_date{
-    font-size: 2v;
+    font-size: 2vh;
+    fontFamily: "'ZCOOL QingKe HuangYou', cursive"
 }
 
 .proj_desc{

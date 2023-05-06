@@ -31,11 +31,13 @@ export default class Projects extends Component{
                             <Tab id='tababout'  label={<span style={
                                 { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>WEB</span>} value='1' />
                             <Tab id='tababout'  label={<span style={
-                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>APP</span>} value='2' />
+                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>AI</span>} value='2' />
                             <Tab id='tababout'  label={<span style={
-                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>GAME</span>} value='3' />
+                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>APP</span>} value='3' />
+                            <Tab id='tababout'  label={<span style={
+                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>GAME</span>} value='4' />
                                 <Tab id='tababout'  label={<span style={
-                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>EMBEDDED</span>} value='4' />
+                                { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>DATA SCIENCE</span>} value='5' />
                         </TabList>
                     </Box>
                     {/* ------------------------------------- Web Dev -------------------------------------------------- */}
@@ -47,7 +49,7 @@ export default class Projects extends Component{
                         <div className='resume-cards'>
                             <Card id='portfolio_card' shadow={0}>
                                 <div className='projectHoverItems'>
-                                    <a href='https://github.com/aanika23/my_portfolio' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
+                                    <a href='https://github.com/Alantom10/Portfolio' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
                                 </div>
                                 <CardTitle id="portfolio_title"> </CardTitle>
                                 <CardText id="portfolio_text">
@@ -57,24 +59,45 @@ export default class Projects extends Component{
                                         <b>Skills:</b> React, HTML, CSS, JaveScript, GitHub, Material UI, React MDL </p>
                                 </CardText>
                             </Card>
-                            <Card id='maphero_card' shadow={0}>
+                        </div>
+                    </TabPanel>
+                    {/* ------------------------------------- AI Dev -------------------------------------------------- */}
+                    <TabPanel value="2"
+                              sx={{
+                                  padding: '0px',
+                              }}
+                    >
+                        <div className='resume-cards'>
+                            <Card id='intercom_card' shadow={0}>
                                 <div className='projectHoverItems'>
-                                    <a href='https://github.com/aanika23/MapHero' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
+                                    <a href='https://github.com/Alantom10/reversi' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
                                 </div>
-                                <CardTitle id="maphero_title"> </CardTitle>
-                                <CardText id="maphero_text">
-                                        <b className='proj_name'> MapHero </b><br/>
-                                        <b className='proj_date'> February 2021 </b><br/>
-                                        <p className='proj_desc'> Launched an online platform to help homeless people and tourists navigate to necessary facilities,
-                                        winning "Best use of Google Clouds" and "Women in STEM" awards out of over 100 teams at StormHacks. <br/><br/>
-                                        <b>Skills:</b> HTML, CSS, JaveScript, GitHub, API, GoogleCloud </p>
+                                <CardTitle id="reversi_title"> </CardTitle>
+                                <CardText id="intercom_text">
+                                    <b className='proj_name'> Reversi </b><br/>
+                                    <b className='proj_date'> August 2020 </b><br/>
+                                    <p className='proj_desc'> Developed an AI controlled game of Reversi using
+                                        2 Monte-Carlo Tree Search algorithms i.e., the Pure MCTS and MCTS using heuristics. <br/><br/>
+                                        <b>Skills:</b> C++, Linux, Github </p>
                                 </CardText>
                             </Card>
-
+                            <Card id='flipper_card' shadow={0}>
+                                <div className='projectHoverItems'>
+                                    <a href='https://github.com/cindytyn/Solve-8-puzzle-with-Imitation-learning' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
+                                </div>
+                                <CardTitle id="flipper_title"> </CardTitle>
+                                <CardText id="flipper_text">
+                                    <b className='proj_name'> 8 Puzzle </b><br/>
+                                    <b className='proj_date'> November 2022 - December 2022 </b><br/>
+                                    <p className='proj_desc'> Implemented a solution to the 8 puzzle problem using
+                                        imitation learning and a* search as the expert learner. <br/><br/><br/>
+                                        <b>Skills:</b> Python, Jupyter Notebook, Github </p>
+                                </CardText>
+                            </Card>
                         </div>
                     </TabPanel>
                     {/* ------------------------------------- App Dev -------------------------------------------------- */}
-                    <TabPanel value="2"
+                    <TabPanel value="3"
                         sx={{
                             padding: '0px',
                         }}
@@ -82,20 +105,20 @@ export default class Projects extends Component{
                         <div className='resume-cards'>
                             <Card id='eMinder_card' shadow={0}>
                                 <div className='projectHoverItems'>
-                                    <a href='https://github.com/aanika23/e-minder' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
+                                    <a href='https://github.com/Alantom10/restaurant-inspection-app' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
                                 </div>
-                                <CardTitle id="eMinder_title"> </CardTitle>
+                                <CardTitle id="restaurant_title"> </CardTitle>
                                 <CardText id="eMinder_text">
-                                        <b className='proj_name'> e-minder </b><br/>
-                                        <b className='proj_date'> June 2022 - Dec 2022 </b><br/>
-                                        <p className='proj_desc'>Developed app using Flutter and Firebase to set reminders for forgotten items using RFID hardware <br/><br/>
-                                        <b>Skills:</b> Dart, C++, Flutter, Firebase, GitHub </p>
+                                        <b className='proj_name'> Restaurant Inspection </b><br/>
+                                        <b className='proj_date'> July 2020 - August 2020 </b><br/>
+                                        <p className='proj_desc'> Developed an app using Android Studio to show restaurant inspection hazard ratings <br/><br/>
+                                        <b>Skills:</b> Java, Android Studio, Adobe Illustrator, GitLab, Junit, Google Maps API </p>
                                 </CardText>
                             </Card>
                         </div>
                     </TabPanel>
                     {/* ------------------------------------- Game Dev -------------------------------------------------- */}
-                    <TabPanel value="3"
+                    <TabPanel value="4"
                         sx={{
                             padding: '0px',
                         }}
@@ -103,53 +126,40 @@ export default class Projects extends Component{
                         <div className='resume-cards'>
                             <Card id='game_card' shadow={0}>
                                 <div className='projectHoverItems'>
-                                    <a href='https://github.com/aanika23/MazeGame' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
+                                    <a href='https://github.com/Alantom10/zombieseeker' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
                                 </div>
                                 <CardTitle id="game_title"> </CardTitle>
                                 <CardText id="game_text">
-                                        <b className='proj_name'> Survive in the end </b><br/>
-                                        <b className='proj_date'> January 2022 - April 2022 </b><br/>
-                                        <p className='proj_desc'>Survive in the End is an arcade-style pseudo 3D game based on a
-                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines,
-                                        avoid bad survivors and find a good survivor to open the exit door while managing their HP based on
-                                        interactions with survivors, with the number of required vaccines varying based on the chosen difficulty level. <br/><br/>
-                                        <b>Skills:</b> Java, GitLab, Maven, Junit </p>
+                                        <b className='proj_name'> ZombieSeeker </b><br/>
+                                        <b className='proj_date'> June 2020 </b><br/>
+                                        <p className='proj_desc'> Survive in the End is an arcade-style pseudo 3D game based on a
+                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines. <br/><br/>
+                                        <b>Skills:</b> Java, Android Studio, GitLab, Junit </p>
                                 </CardText>
                             </Card>
                         </div>
                     </TabPanel>
-                    {/* ------------------------------------- Embedded -------------------------------------------------- */}
-                    <TabPanel value="4"
+                    {/* ------------------------------------- Data Science -------------------------------------------------- */}
+                    <TabPanel value="5"
                         sx={{
                             padding: '0px',
                         }}
                     >
                         <div className='resume-cards'>
-                            <Card id='intercom_card' shadow={0}>
+                            <Card id='game_card' shadow={0}>
                                 <div className='projectHoverItems'>
-                                    <a href='https://github.com/aanika23/intercom-system' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
+                                    <a href='https://github.com/Alantom10/activity-detection' target="_blank"><div id="gitHubHover" className='hoveringDiv'></div></a>
                                 </div>
-                                <CardTitle id="intercom_title"> </CardTitle>
-                                <CardText id="intercom_text">
-                                        <b className='proj_name'> Intercom System </b><br/>
-                                        <b className='proj_date'> September 2022 - December 2022 </b><br/>
-                                        <p className='proj_desc'>Developed a sophisticated intercom system for apartment complexes,
-                                         allowing residents to initiate calls to other units with the press of a button,
-                                          enabling secure and convenient access to the building.  <br/><br/>
-                                        <b>Skills:</b> C, C++, SQLite, BeagleBone, Linux, Github </p>
+                                <CardTitle id="activity_title"> </CardTitle>
+                                <CardText id="game_text">
+                                    <b className='proj_name'> Activity Detection </b><br/>
+                                    <b className='proj_date'> January 2022 - April 2022 </b><br/>
+                                    <p className='proj_desc'>Survive in the End is an arcade-style pseudo 3D game based on a
+                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines. <br/><br/>
+                                        <b>Skills:</b> Python, GitHub, Jupyter Notebook </p>
                                 </CardText>
                             </Card>
-                            <Card id='flipper_card' shadow={0}>
-                                <CardTitle id="flipper_title"> </CardTitle>
-                                <CardText id="flipper_text">
-                                        <b className='proj_name'> Automated Page Flipper </b><br/>
-                                        <b className='proj_date'> September 2018 - December 2018 </b><br/>
-                                        <p className='proj_desc'> Designed and implemented an automated page
-                                        turning system utilizing precise motor control to smoothly and efficiently flip pages
-                                        for use by cooks and musicians. <br/><br/><br/>
-                                        <b>Skills:</b> C, C++, Linux, Github </p>
-                                </CardText>
-                            </Card>
+
                         </div>
                     </TabPanel>
                 </TabContext>
@@ -159,8 +169,8 @@ export default class Projects extends Component{
     }
 }
 //1. My portfolio
-//2. Map Hero
-//3. E-minder
-//4. Survive in the end
-//5. Intercom-system
-//5. Automated Page Flipper
+//2. Reversi
+//3. 8 Puzzle
+//4. Restaurant Inspection
+//5. ZombieSeeker
+//5. Activity Detection

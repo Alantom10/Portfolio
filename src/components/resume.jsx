@@ -71,7 +71,7 @@ export default class Resume extends Component{
                                 { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>EDUCATION</span>} value='2' />
                             <Tab id='tababout'  label={<span style={
                                 { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>HOBBIES</span>} value='3' />
-                                <Tab id='tababout'  label={<span style={
+                            <Tab id='tababout'  label={<span style={
                                 { color: 'white', fontFamily: "'Chathura', sans-serif", fontSize: "3vh" }}>RESUME</span>} value='4' />
                         </TabList>
                     </Box>
@@ -91,7 +91,6 @@ export default class Resume extends Component{
                                         <p className='resume-desc'> Developed and maintained REST APIs using FastAPI framework,
                                             implemented Unit Tests to validate REST API endpoints and developed automated tests
                                             to validate GraphQL APIs using Pytest.</p>
-
                                     </div>
                                 </CardText>
                             </Card>

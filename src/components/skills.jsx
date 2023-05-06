@@ -66,36 +66,52 @@ export default class Skills extends Component{
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/CSS.jpg"/>} label="CSS&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/Git.jpg"/>} label="Git&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/GitLab.jpg"/>} label="GitLab&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/TDD.png"/>} label="Test Driven Develoment&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/OS.jpg"/>} label="Windows / MacOS / Linux&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/HTML.png"/>} label="HTML&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/Postman.png"/>} label="Postman&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/Java.jpg"/>} label="Java&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='framework-chip' avatar={<Avatar src="/skills/Angular.png"/>} label="Angular&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/TypeScript.png"/>} label="TypeScript&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='framework-chip' avatar={<Avatar src="/skills/Cucumber.png"/>} label="Cucumber&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/Jira.jpg"/>} label="Jira&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/Go.png"/>} label="Go&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/SQL.png"/>} label="MySQL&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/AWS.png"/>} label="Amazon Web Services&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/ML.png"/>} label="Machine Learning&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/Jenkins.png"/>} label="Jenkins&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/SonarQube.png"/>} label="SonarQube&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/Office.jpg"/>} label="Microsoft Word / Powerpoint / Excel&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='general-chip' avatar={<Avatar src="/skills/PowerBI.png"/>} label="Power BI&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    {/*<Chip className='general-chip' avatar={<Avatar src="/skills/PowerBI.png"/>} label="Power BI&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/Python.png"/>} label="Python&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='dev-chip' avatar={<Avatar src="/skills/R.jpg"/>} label="R Studio&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    {/*<Chip className='dev-chip' avatar={<Avatar src="/skills/R.jpg"/>} label="R Studio&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
                     <Chip className='framework-chip' avatar={<Avatar src="/skills/React.png"/>} label="React&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/SQL.png"/>} label="PostgreSQL&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/CSS.jpg"/>} label="CSS&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/SQLite.png"/>} label="SQLite&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/SQLServer.jpg"/>} label="SQL Server Management Studio&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/SSH.png"/>} label="Secure Shell&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/Stats.jpg"/>} label="Statistical Analysis&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='dev-chip' avatar={<Avatar src="/skills/VHDL.png"/>} label="VHDL&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='dev-chip' avatar={<Avatar src="/skills/MongoDB.png"/>} label="Mongo DB&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    {/*<Chip className='dev-chip' avatar={<Avatar src="/skills/VHDL.png"/>} label="VHDL&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/Vim.png"/>} label="Vim&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='general-chip' avatar={<Avatar src="/skills/VirtualBox.png"/>} label="Virtual Box&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/Putty.jpg"/>} label="Putty&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    {/*<Chip className='general-chip' avatar={<Avatar src="/skills/VirtualBox.png"/>} label="Virtual Box&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
                     <Chip className='general-chip' avatar={<Avatar src="/skills/VisualStudio.png"/>} label="Visual Studio Code&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/vmware.png"/>} label="vmware&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='general-chip' avatar={<Avatar src="/skills/OS.jpg"/>} label="Windows / Linux&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/DBeaver.png"/>} label="DBeaver&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='framework-chip' avatar={<Avatar src="/skills/flutter.png"/>} label="Flutter&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/matlab.png"/>} label="Matlab&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/vba.png"/>} label="VBA Excel&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='dev-chip' avatar={<Avatar src="/skills/firebase.png"/>} label="Firebase&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    <Chip className='general-chip' avatar={<Avatar src="/skills/Adobe.jpg"/>} label="Adobe Suite&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='framework-chip' avatar={<Avatar src="/skills/bootstrap.png"/>} label="Bootstrap&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='framework-chip' avatar={<Avatar src="/skills/nodejs.png"/>} label="Node.js&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='framework-chip' avatar={<Avatar src="/skills/django.png"/>} label="Django&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    {/*<Chip className='framework-chip' avatar={<Avatar src="/skills/nodejs.png"/>} label="Node.js&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
+                    {/*<Chip className='framework-chip' avatar={<Avatar src="/skills/django.png"/>} label="Django&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
                     <Chip className='general-chip' avatar={<Avatar src="/skills/unitTest.png"/>} label="Unit Testing&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='general-chip' avatar={<Avatar src="/skills/unitTest.png"/>} label="UI Testing&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='general-chip' avatar={<Avatar src="/skills/beaglebone.png"/>} label="BeagleBone Green&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
-                    <Chip className='dev-chip' avatar={<Avatar src="/skills/dart.png"/>} label="Dart&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
+                    {/*<Chip className='general-chip' avatar={<Avatar src="/skills/beaglebone.png"/>} label="BeagleBone Green&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
+                    {/*<Chip className='dev-chip' avatar={<Avatar src="/skills/dart.png"/>} label="Dart&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>*/}
                     <Chip className='framework-chip' avatar={<Avatar src="/skills/pandas.png"/>} label="Pandas&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                     <Chip className='framework-chip' avatar={<Avatar src="/skills/matlab.png"/>} label="Matplotlib&nbsp;&nbsp;&nbsp;" sx={this.chipStyle}/>
                 </div>
