@@ -1,0 +1,39 @@
+#contact-div{
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+  }
+  .contact_icons{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    background-image: url('../image/github.png');
+    background-size: cover;
+    background-color: white;
+    position: absolute;
+    left: 24.5vw;
+    top: 9.5vh;
+  }
+  #actual_contact{
+    position: absolute;
+    top: 250%;
+    transform: translateY(-50%);
+    height: 10vh;
+    width: 100%;
+    font-size: 5vh;
+  }
+  #phone_icon{
+    background-image: url('../image/phone.png');
+    left: 30.6vw;
+  }
+  #email_icon{
+    background-image: url('../image/email.png');
+    left: 36.6vw;
+  }
+  #linkedin_icon{
+    background-image: url('../image/linkedin.png');
+    left: 42.6vw;
+  }

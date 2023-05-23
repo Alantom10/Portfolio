@@ -1,0 +1,51 @@
+#id_card {
+  background-image: linear-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,1) 55%, rgba(0,0,0,1) 100%);
+  font-family: 'Chathura', sans-serif;
+  font-size: 10vh;
+  position: absolute;
+  width: 70vw;
+  height: 75vh;
+  left: 15vw;
+  border-radius: 10px;
+  z-index: 0;
+  top: 15vh;
+  color: white;
+  text-align: center;
+}
+#image_holder{
+    height: width;
+    width: 22%;
+    position: absolute;
+    top: 5vh;
+    left: 40%;
+    border-radius: 50%;
+}
+  
+.about_text{
+    position: relative;
+    top: 20%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 6vh;
+    color: white;
+    line-height: 4vh;
+}
+#header_sub{
+    font-size: 4vh;
+}
+#main_body{
+    font-size: 4vh;
+    width: 86%;
+    left: 7%;
+    line-height: 3.5vh;
+    font-family: 'Chathura', sans-serif;
+}
+#about_outside_div{
+    position: relative;
+    height: 45%;
+    top: 55%;
+}
+#about_me_container{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}

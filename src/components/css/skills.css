@@ -1,0 +1,30 @@
+#skills_container{
+    position: absolute;
+    top: 20vh;
+    height: 80vh;
+}
+
+#skills{
+    width: 70vw;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    top: 30vh;
+    left: 15vw;
+    text-align: center;
+}
+
+.dev-chip, .general-chip, .framework-chip{
+    margin-right: 1em;
+    padding-right: 1em;
+}
+
+@keyframes fade-out{
+    to{ opacity: 0;}
+}
+
+@keyframes fade-in{
+    to{ opacity: 1;}
+}
+

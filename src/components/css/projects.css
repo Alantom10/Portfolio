@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/chathura');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+#portfolio_text{
+    background: -webkit-linear-gradient(#bb007d, #000000);
+    background: linear-gradient(#bb007d, #000000);
+}
+
+#maphero_text, #eMinder_text{
+    background: -webkit-linear-gradient(#3b00bb, #000000);
+    background: linear-gradient(#3b00bb, #000000);
+}
+
+#game_text, #intercom_text{
+    background: -webkit-linear-gradient(#1762ad, #000000);
+    background: linear-gradient(#1762ad, #000000);
+}
+#flipper_text{
+    background: -webkit-linear-gradient(#1b91ae, #000000);
+    background: linear-gradient(#1b91ae, #000000);
+}
+
+#portfolio_text, #maphero_text, #eMinder_text, #game_text, #intercom_text, #flipper_text{
+    width: 100%;
+    height: 30vh;
+    color: white;
+    font-family: 'Chathura', sans-serif;
+    font-size: 4vh;
+    line-height: 3vh;
+    left: 3%;
+}
+
+#portfolio_card, #maphero_card, #eMinder_card, #game_card, #intercom_card, #flipper_card{
+    position: absolute;
+    top: 20vh;
+    left: 20.5vw;
+    width: 25vw;
+    height: 60vh;
+    font-family: 'Chathura', sans-serif;
+    background-color: transparent;
+}
+
+#8puzzle_card {
+    left: 49.5vw;
+}
+
+#maphero_card, #flipper_card{
+    left: 49.5vw;
+}
+#portfolio_card, #eMinder_card, #game_card{
+    left: 39vw;
+}
+
+#portfolio_title, #maphero_title, #restaurant_title, #game_title, #reversi_title, #flipper_title, #activity_title{
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+.projectHoverItems{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.projectHoverItems:hover{
+    animation: projectHover 0.5s forwards;
+}
+@keyframes projectHover{
+from  {opacity: 0;}
+to    {opacity: 1;}
+}
+.hoveringDiv{
+    position: absolute;
+    width: 100%;
+    height: 51%;
+    background-color:rgba(0,0,0,0.8);
+    background-image: url("../image/github-hover.png");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+#portfolio_title{
+    background-image: url("../image/Alan.svg");
+    background-color: black;
+}
+
+#maphero_title{
+    background-image: url("../image/MapHero.JPG");
+    background-color: black;
+}
+#restaurant_title{
+    background-image: url("../image/restaurant.jpg");
+    background-color: black;
+    background-size: 90%;
+}
+#game_title{
+    background-image: url("../image/zombie.jpg");
+    background-color: black;
+}
+#activity_title{
+    background-image: url("../image/activity.png");
+    background-color: black;
+}
+#reversi_title{
+    background-image: url("../image/reversi.jpg");
+    background-color: black;
+}
+#flipper_title{
+    background-image: url("../image/8puzzle.jpg");
+    background-color: black;
+}
+.proj_name{
+    font-size: 4vh;
+    fontFamily: "'ZCOOL QingKe HuangYou', cursive"
+}
+
+.proj_date{
+    font-size: 2vh;
+    fontFamily: "'ZCOOL QingKe HuangYou', cursive"
+}
+
+.proj_desc{
+    font-size: 4vh;
+    width: 90%;
+    line-height: 3vh;
+}
+
+.proj_date, .proj_name{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.proj_date, .proj_name, .proj_desc{
+    margin-left: 1vw;
+}

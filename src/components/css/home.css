@@ -1,0 +1,222 @@
+body {
+    background: url('../image/homeBG7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#image_mov{
+    width:12%;
+    height: auto;
+    float: right;
+}
+
+.intro_text{
+    color:aliceblue;
+}
+
+#intro_text_box{
+    color: transparent;
+    font-family:cursive;
+    float:left;
+}
+
+#home_logo{
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#info_container{
+    font: white;
+    background-color: rgb(0,0,0,0.4);
+    margin-top: -25vh;
+    position:absolute;
+    right: 100%;
+    height:50vh;
+    width:134.5vw;
+}
+
+/*.traits {*/
+/*    color: white;*/
+/*    font-family: 'Amatic SC';*/
+/*    margin-left: 1vw;*/
+/*    font-size: 4vh;*/
+/*    opacity: 0;*/
+/*    animation: intro_subtext_move;*/
+/*    animation-fill-mode: forwards;*/
+/*    animation-delay:2000ms;*/
+/*    animation-duration: 1500ms;*/
+/*}*/
+
+.traits{
+    font-family: 'Lobster', cursive;
+    font-size: 3vw;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+}
+
+#curious{
+    color:transparent;
+    font-size: 2vw;
+    font-family: 'Amatic SC', cursive;
+    top: 20vh;
+    animation-name: curious;
+    animation-duration: 1s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes curious{
+    from  {left: 90vw; color: transparent}
+    to    {left: 5vh; color: white}
+}
+
+
+#adventurous{
+    color:transparent;
+    font-size: 2vw;
+    font-family: 'Amatic SC', cursive;
+    top: 25vh;
+    animation-name: adventurous;
+    animation-duration: 1s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes adventurous{
+    from  {left: 90vw; color: transparent}
+    to    {left: 5vh; color: white}
+}
+
+
+#ambitious{
+    color:transparent;
+    font-size: 2vw;
+    font-family: 'Amatic SC', cursive;
+    top: 30vh;
+    animation-name: ambitious;
+    animation-duration: 1s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+}
+@keyframes ambitious{
+    from  {left: 90vw; color: transparent}
+    to    {left: 5vh; color: white}
+}
+
+
+#resilient{
+    color:transparent;
+    font-size: 2vw;
+    font-family: 'Amatic SC', cursive;
+    top: 35vh;
+    animation-name: resilient;
+    animation-duration: 1s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes resilient{
+    from  {left: 90vw; color: transparent}
+    to    {left: 5vh; color: white}
+}
+
+#trait_container{
+    color: transparent;
+    position: absolute;
+    top: -10vh;
+    background: rgba(0, 0, 0, 0.85);
+    width: 0vw;
+    margin-left: 30vw;
+    height: 42vh;
+    margin-top: 35vh;
+    animation-name: text_box;
+    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes text_box{
+    50%  { width: 70vw; color: transparent; }
+    100%  { width: 70vw; color: white; }
+}
+
+
+#welcome_gif{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20vh;
+    margin-left: -40vh;
+    animation:gif_move;
+    animation-delay:2000ms;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    width: 40vw;
+    height: auto;
+}
+@keyframes intro_text_move {
+    0% {
+        width: 0vw;
+    }
+    100%{
+        width: 65vw;
+    }
+}
+
+@keyframes gif_move{
+    /* 0% {
+        transform: translateX(0vh);
+    } */
+    100% {
+        transform: translateX(-30vw);
+    }
+}
+
+@keyframes intro_subtext_move{
+    100% {
+        opacity: 1;
+    }
+}
+
+.background-video{
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    object-fit: fill;
+    z-index: -1;
+    left: 0;
+    top: -10vh;
+}
+
+#my_pic{
+    height: 15vw;
+    width: 15vw;
+    position: absolute;
+    top: 30%;
+    left: 42.5vw;
+    animation-name: landing_page_1;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes landing_page_1{
+    50%   { top: 12.5%; left: 42.5vw; }
+    100%  { top: 12.5%; left: 7.5vw; }
+}
+
+#animation{
+    z-index: 1;
+    background-color: black;
+    animation-name: landing_page;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes landing_page{
+    50%     { width: 100vw; margin-right: 0; margin-left: 0; height: 42vh; margin-top: 35vh; background-color: black; }
+    100%    { width: 30vw; margin-right: 70vw; margin-left: 0; height: 42vh; margin-top: 35vh; }
+}
