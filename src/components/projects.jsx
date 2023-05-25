@@ -132,8 +132,8 @@ export default class Projects extends Component{
                                 <CardText id="game_text">
                                         <b className='proj_name'> ZombieSeeker </b><br/>
                                         <b className='proj_date'> June 2020 </b><br/>
-                                        <p className='proj_desc'> Survive in the End is an arcade-style pseudo 3D game based on a
-                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines. <br/><br/>
+                                        <p className='proj_desc'> ZombieSeeker is a Zombie-themed 2D mine seeker strategic game
+                                            where the player has to click tiles in order to find mines hidden under some of them. <br/><br/>
                                         <b>Skills:</b> Java, Android Studio, GitLab, Junit </p>
                                 </CardText>
                             </Card>
@@ -154,8 +154,8 @@ export default class Projects extends Component{
                                 <CardText id="game_text">
                                     <b className='proj_name'> Activity Detection </b><br/>
                                     <b className='proj_date'> January 2022 - April 2022 </b><br/>
-                                    <p className='proj_desc'>Survive in the End is an arcade-style pseudo 3D game based on a
-                                        zombie apocalypse horror story where the main player must navigate a maze to collect vaccines. <br/><br/>
+                                    <p className='proj_desc'> Analyzes gait and detect asymmetry using smartphone accelerometers
+                                        to leverage smartphone sensors for valuable insights on walking patterns. <br/><br/>
                                         <b>Skills:</b> Python, GitHub, Jupyter Notebook </p>
                                 </CardText>
                             </Card>
